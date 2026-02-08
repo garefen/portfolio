@@ -14,10 +14,7 @@ export const Header = () => {
     <header className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled ? 'bg-neutral-950/90 backdrop-blur-md py-4' : 'bg-transparent py-8'}`}>
       <div className="container mx-auto px-6 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2 text-white font-bold text-xl tracking-tight group cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 rounded-lg px-2 py-1" aria-label="Sartii Home">
-          <div className="w-8 h-8 bg-white text-black flex items-center justify-center group-hover:bg-violet-500 group-hover:text-white transition-colors duration-300 rounded-lg" aria-hidden="true">
-            <Code2 size={20} strokeWidth={2.5} />
-          </div>
-          <span className="font-display font-bold tracking-tight">Sartii</span>
+          <span className="font-display font-bold tracking-tight text-fuchsia-400">Sartii</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-10" aria-label="Main Navigation">
