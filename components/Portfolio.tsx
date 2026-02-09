@@ -19,7 +19,7 @@ const projects: Project[] = [
     id: '2',
     title: 'Accelerate With Google',
     category: 'R/GA & Google',
-    description: 'Criação de landing page com animações complexas e nova plataforma para a criação da melhor experiência do usuário.',
+    description: 'Criação de landing page com animações complexas e nova plataforma de conteúdo para negócios.',
     metrics: [
       { label: 'SEO', value: '100/100' }
     ],
@@ -34,7 +34,7 @@ export const Portfolio = () => {
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-6 border-b border-neutral-900 pb-8">
           <div>
-            <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-2 tracking-tighter">Projetos que ajudei a construir</h2>
+            <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-2 tracking-tighter">Sites que ajudei a construir</h2>
             {/* <p className="text-neutral-500 font-medium">Performance encontra Design</p> */}
           </div>
           {/* <button className="text-violet-400 hover:text-white flex items-center gap-2 transition-colors uppercase text-xs tracking-widest font-bold font-display">

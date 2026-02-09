@@ -19,7 +19,7 @@ export const Header = () => {
 
         <nav className="hidden md:flex items-center gap-10" aria-label="Main Navigation">
           <a href="#" className="text-xs font-bold tracking-wider text-neutral-400 hover:text-white transition-colors uppercase font-display focus-visible:outline-none focus-visible:text-white">Início</a>
-          <a href="#portfolio" className="text-xs font-bold tracking-wider text-neutral-400 hover:text-white transition-colors uppercase font-display focus-visible:outline-none focus-visible:text-white">Trabalhos</a>
+          <a href="#portfolio" className="text-xs font-bold tracking-wider text-neutral-400 hover:text-white transition-colors uppercase font-display focus-visible:outline-none focus-visible:text-white">Portfolio</a>
           <a href="#audit" className="px-5 py-2 text-xs font-bold tracking-wider bg-white text-black hover:bg-violet-200 transition-colors uppercase font-display rounded-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500">
             Contato
           </a>

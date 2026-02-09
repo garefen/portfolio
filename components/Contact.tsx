@@ -26,7 +26,7 @@ export const Contact = () => {
             <div>
               <h2 className="text-4xl font-display font-bold text-white mb-6 tracking-tight">Próximo Passo</h2>
               <p className="text-neutral-400 mb-10 leading-relaxed font-normal">
-                Solicite uma auditoria técnica. Sem compromisso, apenas engenharia e dados reais sobre o potencial do seu negócio.
+                Vamos viabilizar sua ideia? Uma análise técnica rápida, sem burocracia, focada no que importa.
               </p>
             </div>
 
@@ -66,7 +66,7 @@ export const Contact = () => {
               <div className="pt-4">
                 <Button type="submit" className="w-full gap-2 rounded-lg bg-white text-black hover:bg-violet-200 font-bold tracking-wide" disabled={isSubmitting}>
                   {isSubmitting ? <Loader2 className="w-4 h-4 animate-spin" aria-hidden="true" /> : <Send className="w-4 h-4" aria-hidden="true" />}
-                  ENVIAR SOLICITAÇÃO
+                  ENVIAR MENSAGEM
                 </Button>
               </div>
             </form>
