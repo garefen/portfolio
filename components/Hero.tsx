@@ -1,11 +1,10 @@
 import React from 'react';
-import { ArrowRight, Star } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from './ui/Button';
 
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-20">
-      {/* Background Elements - More subtle/creative */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-violet-600/20 blur-[120px] rounded-full opacity-40 mix-blend-screen" />
         <div className="absolute bottom-0 right-0 w-[600px] h-[500px] bg-fuchsia-600/10 blur-[100px] rounded-full mix-blend-screen" />
@@ -20,12 +19,10 @@ export const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold tracking-tight text-white leading-[1.05]">
-            {/* Sua marca com a <br /> */}
             Interfaces de elite. Performance que<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-fuchsia-400 to-white">
-              {/* alma e a técnica */}converte.
-            </span> <br />
-            {/* das Big Techs. */}
+              converte.
+            </span>
           </h1>
 
           <p className="text-lg md:text-xl text-neutral-400 max-w-2xl leading-relaxed font-normal">

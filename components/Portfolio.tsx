@@ -3,28 +3,40 @@ import { ExternalLink, ArrowUpRight } from 'lucide-react';
 import { Project } from '../types';
 
 const projects: Project[] = [
+  // {
+  //   id: '1',
+  //   title: 'Google Ads',
+  //   category: 'R/GA & Google',
+  //   description: 'Participei ativamente do re-design da plataforma, implementando novos módulos e integrando diversas APIs internas.',
+  //   metrics: [
+  //     // { label: 'Conversion', value: '+215%' },
+  //     { label: 'Acessibilidade', value: '100/100' }
+  //   ],
+  //   url: "https://business.google.com/br/google-ads/",
+  //   imageUrl: 'https://wonder55.com/wp-content/uploads/2023/01/Google-Ads-Logo.jpg'
+  // },
+  // {
+  //   id: '2',
+  //   title: 'Accelerate With Google',
+  //   category: 'R/GA & Google',
+  //   description: 'Criação de landing page com animações complexas e nova plataforma de conteúdo para negócios.',
+  //   metrics: [
+  //     { label: 'SEO', value: '100/100' }
+  //   ],
+  //   url: "https://business.google.com/us/accelerate/homepage/",
+  //   imageUrl: 'https://www.citypng.com/public/uploads/preview/google-logo-icon-gsuite-hd-701751694791470gzbayltphh.png'
+  // },
   {
     id: '1',
-    title: 'Google Ads',
-    category: 'R/GA & Google',
-    description: 'Participei ativamente do re-design da plataforma, implementando novos módulos e integrando diversas APIs internas.',
+    title: 'Test',
+    category: 'Test',
+    description: 'Test.',
     metrics: [
       // { label: 'Conversion', value: '+215%' },
       { label: 'Acessibilidade', value: '100/100' }
     ],
-    url: "https://business.google.com/br/google-ads/",
-    imageUrl: 'https://wonder55.com/wp-content/uploads/2023/01/Google-Ads-Logo.jpg'
-  },
-  {
-    id: '2',
-    title: 'Accelerate With Google',
-    category: 'R/GA & Google',
-    description: 'Criação de landing page com animações complexas e nova plataforma de conteúdo para negócios.',
-    metrics: [
-      { label: 'SEO', value: '100/100' }
-    ],
-    url: "https://business.google.com/us/accelerate/homepage/",
-    imageUrl: 'https://www.citypng.com/public/uploads/preview/google-logo-icon-gsuite-hd-701751694791470gzbayltphh.png'
+    url: "#",
+    imageUrl: ''
   },
 ];
 
